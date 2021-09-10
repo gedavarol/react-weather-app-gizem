@@ -1,5 +1,6 @@
 body,
-footer {
+footer,
+.container {
   font-family: "DM Serif Display", serif;
 }
 .container {
@@ -9,12 +10,13 @@ footer {
   border: 1px solid #407088;
   border-radius: 15px;
   padding: 25px 40px 20px;
-  margin: 30px auto;
+  margin: 40px auto;
+  margin-bottom: 10px;
   max-width: 750px;
   background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 #search-form {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .col-12 #form-city {
@@ -24,8 +26,9 @@ footer {
 
 .col-2 .searchButton,
 .col-2 .currentButton {
-  padding: 17px 40px;
-  margin: 0 7px;
+  padding: 12px 29px;
+  margin: 0 5px;
+  font-size: 20px;
 }
 #description {
   text-transform: capitalize;
@@ -63,10 +66,10 @@ img#icon.weather-icon.float-left {
   cursor: default;
 }
 
-.row .col-4 h2 {
+h2 {
   color: #4e3188;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 100;
   opacity: 0.9;
   margin: 0 auto;
   padding-top: 8px;
@@ -113,8 +116,9 @@ li {
 }
 footer {
   font-size: 14px;
-  margin: 20px 0 0;
-  padding-left: 30px;
+  padding: 0 16px 0;
+  margin: 0 auto;
+  max-width: 750px;
   opacity: 0.7;
 }
 .codeLink {
