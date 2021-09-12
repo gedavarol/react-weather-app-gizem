@@ -30,7 +30,7 @@ footer,
   margin: 0 5px;
   font-size: 20px;
 }
-#description {
+.description {
   text-transform: capitalize;
 }
 
