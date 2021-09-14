@@ -73,11 +73,19 @@ export default function Weather(props) {
           </a>{" "}
           {""}
           and is{" "}
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/gedavarol/react-weather-app-gizem"
+            target="_blank"
+            rel="noreferrer"
+          >
             open-sourced on GitHub
           </a>{" "}
           and{" "}
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://react-weather-app-gizem.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             hosted on Netlify
           </a>
         </footer>
