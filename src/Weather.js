@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import "./App.css";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -41,7 +42,7 @@ export default function Weather(props) {
             <div className="row p-2 m-1">
               <div className="col-12">
                 <input
-                  type="text"
+                  type="search"
                   id="form-city"
                   placeholder="Enter a city"
                   autoFocus="on"
@@ -50,17 +51,9 @@ export default function Weather(props) {
                 <span className="col-2">
                   <button
                     type="submit"
-                    className="btn btn-outline-success searchButton"
+                    className="btn btn-outline-success w-25 p-3 ms-4"
                   >
                     🔎 Search
-                  </button>
-                </span>
-                <span className="col-2">
-                  <button
-                    type="submit"
-                    className="btn btn-outline-dark currentButton"
-                  >
-                    📌 Current
                   </button>
                 </span>
               </div>
