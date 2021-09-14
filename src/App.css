@@ -46,11 +46,14 @@ h1 {
   font-weight: 400;
   line-height: 2;
   opacity: 0.9;
-  margin-top: 10px;
 }
-img#icon.weather-icon.float-left {
-  padding-bottom: 24px;
+
+.weather-icon canvas {
+  margin: 0 10px 0;
+  position: relative;
+  bottom: -22px;
 }
+
 .units {
   position: relative;
   top: -22px;
