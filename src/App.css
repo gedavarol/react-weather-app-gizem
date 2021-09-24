@@ -94,26 +94,6 @@ li {
   margin: 10px 35px 10px;
   font-size: 20px;
 }
-.forcast-day {
-  color: #c54c82;
-  font-weight: bolder;
-  opacity: 0.6;
-  font-size: 22px;
-}
-.weather-forecast {
-  text-align: center;
-}
-.forecast-temperatures {
-  font-size: 14px;
-  color: #5e63b6;
-}
-.forecast-temperature-max {
-  font-weight: bold;
-}
-.forecast-temperature-min {
-  color: #5e63b6;
-  opacity: 0.7;
-}
 footer {
   font-size: 14px;
   padding: 0 16px 0;

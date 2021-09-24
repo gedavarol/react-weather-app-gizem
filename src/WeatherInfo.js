@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-6">
           <span className="weather-icon">
-            <WeatherIcon code={props.data.icon} />
+            <WeatherIcon code={props.data.icon} size={100} />
           </span>
           <WeatherTemperature celsius={props.data.temperature} />
         </div>
@@ -22,7 +22,7 @@ export default function WeatherInfo(props) {
       <ul>
         <div className="row">
           <div className="col-4">
-            <h2 class="current-date">
+            <h2 className="current-date">
               <FormattedDate date={props.data.date} />
             </h2>
           </div>
