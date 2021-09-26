@@ -1,14 +1,15 @@
 .WeatherForecast {
   text-align: center;
 }
-.forcast-day {
+.forecast-day {
   color: #c54c82;
   font-weight: bolder;
   opacity: 0.6;
   font-size: 22px;
+  margin-bottom: 10px;
 }
 .forecast-temperatures {
-  font-size: 14px;
+  font-size: 16px;
   color: #5e63b6;
 }
 .forecast-temperature-max {
